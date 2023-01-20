@@ -769,13 +769,18 @@ header a {
   .container-WorkSocial2 {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    color: #b3bac5;
+    color: white;
     padding: 5px 5px 0 0;
     font-size: 1.6rem;
     margin-bottom: 10px;
     margin-top: 0;
+  }
+
+  .container-WorkSocial2 p, h5, div {
+    margin: 0;
+    padding: 5px;
   }
 
   #ctrlHide {
@@ -801,7 +806,7 @@ header a {
   }
 
   #works h2 {
-    color: #9390ff;
+    color: white;
     margin-bottom: 15px;
     font-size: 2rem;
     margin-left: 8%;
@@ -833,7 +838,7 @@ header a {
 
   .superButton {
     border: none;
-    background-color: #7d73fc;
+    background-color: #b6b31d;
     text-decoration: none;
     padding: 8px 12px;
     color: #edecff;
@@ -890,7 +895,7 @@ header a {
   }
 
   #about {
-    color: #9390ff;
+    color: white;
     font-weight: 400;
     font-size: 1.6rem;
     margin-top: 50px;
@@ -901,7 +906,7 @@ header a {
   }
 
   .superButtonR {
-    background-color: #7d73fc;
+    background-color: #b6b31d;
     text-decoration: none;
     padding: 8px 5px;
     color: #edecff;
@@ -1101,7 +1106,7 @@ header a {
 
   .superButtonPopup {
     border: none;
-    background-color: #7d73fc;
+    background-color: #b6b31d;
     text-decoration: none;
     padding: 5px 5px;
     color: #edecff;
