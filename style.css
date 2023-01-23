@@ -19,12 +19,20 @@ body {
   width: 100%;
 }
 
+header {
+  background-color: rgb(24, 23, 23)
+}
+
 header a {
   text-decoration: none;
 }
 
 #whatsapp img {
   width: 45px;
+}
+
+.logo-ave {
+  width: 190px;
 }
 
 @media screen and (max-width: 768px) {
