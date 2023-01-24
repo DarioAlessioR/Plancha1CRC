@@ -716,9 +716,9 @@ header a {
 
   #portfolio hr {
     border: 1px solid #646369;
-    max-width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .lineas-accion {
