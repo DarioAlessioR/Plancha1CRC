@@ -32,7 +32,30 @@ header a {
 }
 
 .logo-ave {
-  width: 190px;
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.logo-ave1 {
+  width: 100px;
+}
+
+.logo-ave2 {
+  height: 35px;
+}
+
+
+.div-plancha1-jpeg {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.plancha1-jpeg {
+  width: 85%;
 }
 
 @media screen and (max-width: 768px) {
@@ -133,7 +156,7 @@ header a {
   #portfolio {
     background-image: url('images/tennis2.png'), url('images/tennis2.png');
     background-size: 166px 166px, 164px 164px;
-    background-position: left -250px top 0, right -30px top 1160px;
+    background-position: left -250px top 0, right -30px top 1290px;
     background-repeat: no-repeat, no-repeat;
   }
 
@@ -684,6 +707,15 @@ header a {
     margin: 5px;
   }
 
+  .div-plancha1-jpeg {
+    width: 100%;
+    display: flex;
+  }
+  
+  .plancha1-jpeg {
+    width: 40%;
+  }
+  
   .profession {
     font-weight: 500;
     font-size: 1.77rem;
