@@ -32,10 +32,20 @@ header a {
 }
 
 .logo-ave {
-  width: 100px;
+  width: 180px;
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
+
+.logo-ave1 {
+  width: 100px;
+}
+
+.logo-ave2 {
+  height: 35px;
+}
+
 
 @media screen and (max-width: 768px) {
   .mobile-drop {
