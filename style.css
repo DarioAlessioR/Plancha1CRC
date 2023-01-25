@@ -32,7 +32,9 @@ header a {
 }
 
 .logo-ave {
-  width: 190px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 768px) {
