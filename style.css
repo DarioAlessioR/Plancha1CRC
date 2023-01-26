@@ -27,8 +27,60 @@ header a {
   text-decoration: none;
 }
 
-#whatsapp img {
-  width: 45px;
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.whatsapp {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding: 0;
+  width: 30%;
+}
+
+.whatsapp-user {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:baseline;
+  padding-bottom: 15px;
+}
+
+.whatsapp img {
+
+  max-width: 220px;
+  min-width: 80px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.chatea {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.chatter img {
+  width: 50%;
+  padding-left: 5%;
 }
 
 .logo-ave {
@@ -55,7 +107,14 @@ header a {
 }
 
 .plancha1-jpeg {
-  width: 85%;
+  width: 100%;
+}
+
+.div-miembros-jpeg {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -180,6 +239,11 @@ header a {
     text-align: center;
     margin-left: 8px;
     color: white;
+  }
+
+  .chat-image {
+    width: 20%;
+    border-radius: 50%;
   }
 
   p {
@@ -690,7 +754,7 @@ header a {
   #portfolio {
     background-image: url('images/tennis2.png'), url('images/tennis2.png');
     background-size: 184px 184px, 226px 226px;
-    background-position: left 20px top 100px, right 20px top 350px;
+    background-position: left 20px top 2500px, right 20px top 3550px;
     background-repeat: no-repeat, no-repeat;
   }
 
@@ -712,14 +776,16 @@ header a {
   }
 
   .div-plancha1-jpeg {
-    width: 100%;
+   width: 100%;
     display: flex;
+    justify-content: center;
   }
-  
-  .plancha1-jpeg {
-    width: 40%;
-  }
-  
+
+  .div-plancha1-jpeg img {
+    width: 80%;
+    justify-self: center;
+   }
+
   .profession {
     font-weight: 500;
     font-size: 1.77rem;
@@ -881,6 +947,25 @@ header a {
     margin-right: 8%;
     width: 84%;
     text-align: center;
+  }
+
+  .decalogo {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+    text-align: center;
+  }
+
+  .plancha1-jpeg {
+    width: 100%;
+  }
+
+  .chatter img {
+    width: 50%;
+    padding-left: 25%;
   }
 
   .work-text {
