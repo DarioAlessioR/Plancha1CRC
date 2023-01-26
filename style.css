@@ -28,8 +28,9 @@ header a {
 }
 
 .blink {
-  animation: blink-animation 1s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  animation: blink-animation 2s steps(5, start) infinite;
+  -webkit-animation: blink-animation 2s steps(5, start) infinite;
+  color: yellow;
 }
 @keyframes blink-animation {
   to {
