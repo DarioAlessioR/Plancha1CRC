@@ -215,8 +215,8 @@ header a {
 
   #portfolio {
     background-image: url('images/tennis2.png'), url('images/tennis2.png');
-    background-size: 166px 166px, 164px 164px;
-    background-position: left -250px top 0, right -30px top 3020px;
+    background-size: 166px 166px, 104px 104px;
+    background-position: left -350px top 0, right -15px top 2465px;
     background-repeat: no-repeat, no-repeat;
   }
 
@@ -248,7 +248,7 @@ header a {
   }
 
   p {
-    text-align: center;
+    text-align: justify;
     max-width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -528,8 +528,8 @@ header a {
 
   #about {
     color: white;
-    font-weight: 400;
-    font-size: 1.3rem;
+    font-weight: 700;
+    font-size: 1.8rem;
   }
 
   #contactForm {
