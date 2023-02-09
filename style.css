@@ -945,6 +945,7 @@ header a {
     display: grid;
     text-align: left;
     justify-content: center;
+    padding-top: 70px;
   }
 
   #works h2 {
@@ -1146,7 +1147,6 @@ header a {
 
   .contact button {
     margin-top: 20px;
-    margin-left: 43%;
   }
 
   .bottomLine {
