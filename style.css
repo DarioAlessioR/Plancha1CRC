@@ -99,7 +99,6 @@ header a {
   height: 35px;
 }
 
-
 .div-plancha1-jpeg {
   width: 100%;
   justify-content: center;
@@ -721,6 +720,7 @@ header a {
   header {
     position: fixed;
     width: 100%;
+    height: auto;
     align-items: center;
     box-sizing: border-box;
     display: flex;
@@ -735,20 +735,23 @@ header a {
   }
 
   nav {
-    display: block;
+    width: 70%;
   }
 
   nav ul {
     list-style-type: none;
     display: flex;
-  }
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    }
 
   nav a {
     display: block;
     padding: 0 5px;
     text-decoration: none;
     margin: 5px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   ul li {
