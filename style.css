@@ -85,14 +85,15 @@ header a {
 }
 
 .logo-ave {
-  width: 180px;
+  width: 150px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
 
 .logo-ave1 {
-  width: 100px;
+  height: 50px;
 }
 
 .logo-ave2 {
