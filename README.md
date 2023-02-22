@@ -3,6 +3,10 @@ Plancha1CRC is a single-page desktop and mobile web application to support the c
 
 Through this app, the electors can get to know the Plancha 1 government proposal and the different candidates of which Plancha 1 is composed. Electors can also get in contact and chat with candidates using the WhatsApp link from the page.
 
+The content of the app (texts and images) were provided by the client.
+
+The election was held in February 11th, 2023, and Plancha 1 won it. 
+
 ## Built With
 
 - HTML
