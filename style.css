@@ -805,6 +805,7 @@ header a {
    width: 100%;
     display: flex;
     justify-content: center;
+    filter: brightness(1);
   }
 
   .div-plancha1-jpeg img {
