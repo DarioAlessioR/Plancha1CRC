@@ -136,9 +136,6 @@ header a {
   text-decoration: underline;
 }
 
-
-
-
 @media screen and (max-width: 768px) {
   .mobile-drop {
     scroll-behavior: smooth;
