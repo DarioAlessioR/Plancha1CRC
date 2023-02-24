@@ -22,6 +22,7 @@ Please visit http://plancha1crc.netlify.app
 👤 **Dario Alessio**
 
 - GitHub: https://github.com/DarioAlessioR
+- Portfolio: https://dario-alessio.netlify.app/
 - Slack: https://microverse-students.slack.com/team/U039GCFRK9B
 - LinkedIn: https://www.linkedin.com/in/dario-alessio/?locale=en_US
 
